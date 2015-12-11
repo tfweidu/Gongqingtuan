@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingTop="@dimen/gq10_space_10"
+    android:paddingBottom="@dimen/gq10_space_10"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/layout_tab01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/gq10_space_15" >
+
+        <ImageView
+            android:id="@+id/image_tab01"
+            android:layout_width="@dimen/gq10_size_30"
+            android:layout_height="@dimen/gq10_size_25"
+            android:src="@drawable/gq10_tab01_img_selector" />
+
+        <TextView
+            android:id="@+id/text_tab01"
+            style="@style/gq10_font_format_bbbbbb_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml_str_tab01show" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tab02"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_tab02"
+            android:layout_width="@dimen/gq10_size_30"
+            android:layout_height="@dimen/gq10_size_25"
+            android:src="@drawable/gq10_tab02_img_selector" />
+
+        <TextView
+            android:id="@+id/text_tab02"
+            style="@style/gq10_font_format_bbbbbb_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml_str_tab02show" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tab03"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+         >
+
+        <ImageView
+            android:id="@+id/image_tab03"
+            android:layout_width="@dimen/gq10_size_30"
+            android:layout_height="@dimen/gq10_size_25"
+            android:src="@drawable/gq10_tab03_img_selector" />
+
+        <TextView
+            android:id="@+id/text_tab03"
+            style="@style/gq10_font_format_bbbbbb_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml_str_tab03show" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_tab04"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/gq10_space_30"
+        android:orientation="vertical"
+         >
+
+        <ImageView
+            android:id="@+id/image_tab04"
+            android:layout_width="@dimen/gq10_size_30"
+            android:layout_height="@dimen/gq10_size_25"
+            android:src="@drawable/gq10_tab04_img_selector" />
+
+        <TextView
+            android:id="@+id/text_tab04"
+            style="@style/gq10_font_format_bbbbbb_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml_str_tab04show" />
+    </LinearLayout>
+
+</LinearLayout>

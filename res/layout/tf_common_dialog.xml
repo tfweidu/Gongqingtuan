@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bigDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/big_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/gq10_space_20"
+        android:scaleType="fitXY" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/middle_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/gq10_space_15"
+        android:layout_marginRight="@dimen/gq10_space_15"
+        android:background="@drawable/tf_base_middledialog_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_commondialog_title"
+            style="@style/tf_fontstyle_white18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gq10_color_black"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/gq10_space_5"
+            android:paddingTop="@dimen/gq10_space_5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/gq10_color" />
+
+        <TextView
+            android:id="@+id/tv_commondialog_content"
+            style="@style/tf_fontstyle_black22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/gq10_space_15"
+            android:paddingTop="@dimen/gq10_space_15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bn_left"
+                style="@style/tf_fontstyle_white14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tf10_bt_main_gray_selector"
+                android:paddingBottom="@dimen/gq10_space_10"
+                android:paddingTop="@dimen/gq10_space_10"
+                android:text="确定" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/gq10_color" />
+
+            <Button
+                android:id="@+id/bn_right"
+                style="@style/tf_fontstyle_white14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tf10_bt_main_gray_selector"
+                android:focusable="true"
+                android:paddingBottom="@dimen/gq10_space_10"
+                android:paddingTop="@dimen/gq10_space_10"
+                android:text="取消" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/small_dialog"
+        android:layout_width="@dimen/tf__size120"
+        android:layout_height="@dimen/tf__size120"
+        android:background="@drawable/tf_base_smalldialog_brackground"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="@dimen/tf__size40"
+            android:layout_height="@dimen/tf__size40"
+            android:indeterminateDrawable="@drawable/tf_base_progressbar" />
+
+        <TextView
+            android:id="@+id/tv_toast"
+            style="@style/tf_fontstyle_white14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gq10_space_15" />
+    </LinearLayout>
+
+</FrameLayout>

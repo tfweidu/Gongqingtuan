@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <color name="gq10_color">#bbbbbb</color>
+    <color name="gq10_color_black">#000000</color>
+    
+    <color name="tf10_50black_color"> #7F000000</color>
+    
+</resources>

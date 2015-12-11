@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">志愿聚</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="xml_str_tab01show">首页</string>
+    <string name="xml_str_tab02show">服务</string>
+    <string name="xml_str_tab03show">我的</string>
+    <string name="xml_str_tab04show">更多</string>
+
+</resources>

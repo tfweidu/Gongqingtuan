@@ -1,0 +1,79 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="gq10_font_format_bbbbbb_14" >
+        <item name="android:textColor">@color/gq10_color</item>
+        <item name="android:textSize">@dimen/gq10_fontsize_14</item>
+    </style>
+    
+    <!-- 字体格式 -->
+    <!-- 黑色字体 -->
+    <style name="tf_fontstyle_black12">
+        <item name="android:textColor">@color/gq10_color_black</item>
+        <item name="android:textSize">@dimen/tf_font_size12</item>
+    </style>
+
+    <style name="tf_fontstyle_youhuiquan">
+        <item name="android:textColor">@color/gq10_color_black</item>
+        <item name="android:textSize">@dimen/tf_font_youhuiquan</item>
+    </style>
+
+    <style name="tf_fontstyle_black14">
+        <item name="android:textColor">@color/gq10_color_black</item>
+        <item name="android:textSize">@dimen/tf_font_size14</item>
+    </style>
+
+
+    <style name="tf_fontstyle_black18">
+        <item name="android:textColor">@color/gq10_color_black</item>
+        <item name="android:textSize">@dimen/tf_font_size18</item>
+    </style>
+
+    <style name="tf_fontstyle_black22">
+        <item name="android:textColor">@color/gq10_color_black</item>
+        <item name="android:textSize">@dimen/tf_font_size22</item>
+    </style>
+
+    <!-- 灰色字体 -->
+    <style name="tf_fontstyle_gray12">
+        <item name="android:textColor">@color/gq10_color</item>
+        <item name="android:textSize">@dimen/tf_font_size12</item>
+    </style>
+
+    <style name="tf_fontstyle_gray14">
+        <item name="android:textColor">@color/gq10_color</item>
+        <item name="android:textSize">@dimen/tf_font_size14</item>
+    </style>
+
+    <style name="tf_fontstyle_gray18">
+        <item name="android:textColor">@color/gq10_color</item>
+        <item name="android:textSize">@dimen/tf_font_size18</item>
+    </style>
+
+    <style name="tf_fontstyle_gray22">
+        <item name="android:textColor">@color/gq10_color</item>
+        <item name="android:textSize">@dimen/tf_font_size22</item>
+    </style>
+
+    <!-- 白色字体 -->
+
+    <style name="tf_fontstyle_white12">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tf_font_size12</item>
+    </style>
+
+    <style name="tf_fontstyle_white14">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tf_font_size14</item>
+    </style>
+
+    <style name="tf_fontstyle_white18">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tf_font_size18</item>
+    </style>
+
+    <style name="tf_fontstyle_white22">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tf_font_size22</item>
+    </style>
+
+</resources>
